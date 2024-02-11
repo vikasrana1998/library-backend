@@ -41,8 +41,8 @@ Send requests using appropriate HTTP methods (GET, POST) and provide necessary r
 
 Available Endpoints
 <br>
-POST /api/books: Add a new book to the library.
-Sample Body:
+POST /api/books: Add a new book to the library.<br>
+Sample Body:<br>
 {
   "title": "Harry Potter 2",
   "author": "J K Rowling",
@@ -55,16 +55,16 @@ GET /api/books: Retrieve a list of all available books.
 GET /api/books/:id: Retrieve a specific book by its ID.
 
 <br>
-POST /api/users: Register a new user.
-Sample Body:
+POST /api/users: Register a new user.<br>
+Sample Body:<br>
 {
     "username": "Vikash Rana",
     "email": "vikas@test.com",
     "password": "123456"
 }
 <br>
-POST /api/users/login: Login with username/email and password.
-Sample Body:
+POST /api/users/login: Login with username/email and password.<br>
+Sample Body:<br>
 {
     "email":"vikas@test.com",
     "password":"123456"
@@ -76,8 +76,8 @@ POST /api/return/:bookId/:userId: Return a book.
 <br>
 GET /api/users/:userId/books: Retrieve books borrowed by a specific user.
 <br>
-Environment Variables
-PORT: The port on which the server will run (default: 8000).
+Environment Variables<br>
+PORT: The port on which the server will run (default: 8000).<br>
 JWT_SECRET: Secret key for JWT token generation.
 <br><br>
 <h3>Troubleshooting</h3>
